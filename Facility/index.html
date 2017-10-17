@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
+    
 
 
     <!-- Style -->
@@ -159,28 +158,7 @@
                 <img src="img/slider2.jpg" alt="slider">
               </div>
           </div>
-          <script type="text/javascript">
-            $('.owl-carousel').owlCarousel({
-              loop:true,
-              margin:20,
-              responsiveClass:true,
-              responsive:{
-                  0:{
-                      items:3,
-                      nav:true
-                  },
-                  600:{
-                      items:3,
-                      nav:true
-                  },
-                  1000:{
-                      items:3,
-                      nav:true,
-                      loop:true
-                  }
-              }
-          })
-          </script>
+          
         </div>
         <h3 id="3" class="text-center">COLUMNS</h3>
         <hr> 
@@ -245,20 +223,42 @@
                 <button type="button" class="button-popup text-uppercase" data-dismiss="modal">Close</button>
             </div>
           </div>
-        </div>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $("a.ancLinks").click(function () { 
-      var elementClick = $(this).attr("href");
-      var destination = $(elementClick).offset().top;
-      $('html,body').animate( { scrollTop: destination }, 1100 );
-      return false;
-    });
-  });
-</script>
-
+        </div>     
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script> 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+          $(document).ready(function() {
+            $("a.ancLinks").click(function () { 
+              var elementClick = $(this).attr("href");
+              var destination = $(elementClick).offset().top;
+              $('html,body').animate( { scrollTop: destination }, 1100 );
+              return false;
+            });
+          });
+    </script>
+    <script type="text/javascript">
+            $('.owl-carousel').owlCarousel({
+              loop:true,
+              margin:20,
+              responsiveClass:true,
+              responsive:{
+                  0:{
+                      items:3,
+                      nav:true
+                  },
+                  600:{
+                      items:3,
+                      nav:true
+                  },
+                  1000:{
+                      items:3,
+                      nav:true,
+                      loop:true
+                  }
+              }
+          })
+    </script>
   </body>
 </html>
