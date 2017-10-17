@@ -1,0 +1,406 @@
+@font-face {
+			font-family: "GothamProRegular";
+			src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+			src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+			url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+@font-face {
+			font-family: "GothamProBold";
+			src: url("../fonts/GothamProBold/GothamProBold.eot");
+			src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+			url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+
+/*====================================HEADER===========================================*/
+
+body, p{
+	font-family: "GothamProRegular";
+	margin: 0px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.navbar-brand {
+	height: 0px;
+    padding: 0px;
+
+}
+
+a.navbar-brand img{
+	width: 77px;
+	display: inline-block;
+}
+
+a.navbar-brand p{
+	display: inline-block;
+    padding: 22px;
+    font-family: "GothamProBold";
+    font-size: 18px;
+    color: #646464;
+    vertical-align: top;
+}
+
+
+.navbar-default{
+	background: #fff;
+}
+
+
+.navbar{
+	padding: 15px 0px;
+	margin-bottom: 0px;
+	border: 0px;
+}
+
+.navbar-right{
+    margin: 6px 0px;
+}
+
+ul.navbar-right li a{
+	font-size: 14px;
+	color: #646464;
+	font-family: "GothamProRegular";
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	background: none;
+	color: #545ad8;
+}
+
+.carousel-inner>.item>img {
+    margin: auto;
+    }
+
+.carousel-caption{
+	right: 0;
+	left: 0;
+	top: 25%;
+}
+
+.carousel-caption p{
+	padding: 0px 51px;
+	font-family: "GothamProRegular";
+}
+
+h1{
+	font-size: 75px;
+	font-family: "GothamProBold";
+}
+
+.modal-dialog {
+    top: 25%;
+}
+
+.carousel-control {
+    top: 50%;
+    bottom: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 11px 13px;
+}
+
+
+
+.carousel-control img {
+    width: 23px;
+    color: white;
+    margin: 12px;
+}
+
+.carousel-control.right,
+.carousel-control.left{
+	background: none;
+}
+
+.carousel-control.right{
+	right: 10%;
+}
+
+.carousel-control.left{
+	left: 10%;
+	transform: rotate(180deg);
+}
+
+.carousel-indicators li{
+	background-color: rgb(87, 87, 87);
+}
+
+svg{
+	fill: white;
+	width: 25px;
+	height: 25px;
+}
+
+.width-svg{
+	width: 72px !important;
+	height: auto;
+}
+
+.carousel-control:hover{
+	background: #fff;
+}
+
+.carousel-control:hover svg
+{
+	fill: #000;
+	
+}
+
+.button-popup{
+    padding: 15px 59px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background: #646464;
+    font-size: 16px;
+    font-family: "GothamProBold";
+    margin: 17px 0px;
+    color: #fff;
+}
+
+.modal-header{
+	border: 0px;
+}
+
+.modal-content{
+	height: 304px;
+    border-radius: 0px;
+
+}
+
+h2{
+	font-size: 18px;
+    font-family: "GothamProBold";
+    color: #646464;
+    margin: 48px;
+}
+
+/*=================================SECTION============================*/
+
+
+.owl-nav{
+	position: absolute;
+    top: 39%;
+}
+.owl-prev, .owl-next {
+    top: 50%;
+    bottom: 100%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #646464;
+    padding: 11px 13px;
+    background: url(../img/arrow.svg);
+    background-size: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.owl-prev:hover,
+.owl-next:hover{
+	background-color: rgba(0, 0, 0, 0.19);
+}
+
+.owl-prev{
+	transform: rotate(180deg);
+	left: -73px;
+}
+
+.owl-next{
+	left: 1164px;
+}
+
+
+
+h3{
+	font-size: 24px;
+    font-family: "GothamProBold";
+    color: #646464;
+}
+
+hr{
+	width: 50px;
+	height: 5px;
+	background: #646464;
+	margin-top: 0px;
+}
+
+h4{
+	font-size: 18px;
+    font-family: "GothamProBold";
+    color: #646464;
+    margin-bottom: 20px;
+}
+
+.color-text{
+	color: #646464;
+	margin-bottom: 80px;
+}
+
+h5{
+	font-size: 16px;
+	font-family: "GothamProBold";
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.article-text{
+	line-height: 1.5;
+	font-size: 16px;
+	color: #000;
+}
+
+.link-text{
+	text-decoration: underline;
+	color: #000;
+}
+
+.link-text:hover{
+	color: #545ad8;
+}
+
+footer{
+	margin-top: 80px;
+}
+
+/*=======================================MQ===============================*/
+
+
+@media (max-width: 1200px) { 
+
+		.nav>li>a {
+		    padding: 14px 11px;
+		}
+
+		h1{
+		   font-size: 45px;
+		}
+
+		.carousel-caption {
+          top: 18%;
+      	}
+
+      	.owl-nav{
+			display: block;
+			position: static;
+			text-align: center;
+		}
+
+		.owl-prev, .owl-next{
+			display: block;
+			position: static;
+			display: inline-block;
+			margin: 10px 25px;
+		}
+}
+
+
+
+@media (max-width: 768px) { 
+		.carousel-caption {
+		    top: 0;
+		}
+
+		h1 {
+    		font-size: 23px;
+    	}
+
+    	.carousel-caption p{
+    		padding: 0px;
+    		font-size: 10px;
+    	}
+
+    	.button-popup {
+		    padding: 9px 14px;
+		    font-size: 7px;
+		    margin: 0px;
+		}
+
+		.carousel-indicators{
+			display: none;
+		}
+
+		.carousel-control.right,
+		.carousel-control.left{
+			top: 40%;
+		}
+		
+
+		.carousel-control.right{
+			right:0;
+		}
+
+		.carousel-control.left{
+			left:0;;
+		}
+
+		a.navbar-brand p{
+			display: none;
+		}
+
+		.container-fluid>.navbar-header{
+			text-align: center;
+		}
+		
+		.navbar-toggle{
+			position: absolute;
+			right: 0;
+		}
+
+		.navbar-brand{
+			float: none;
+		}
+
+		.navbar-default .navbar-toggle:focus,
+		.navbar-default .navbar-toggle:hover {
+		    background-color: transparent;
+		}
+
+		.navbar-default .navbar-toggle {
+		    border: none;
+		}
+
+		.navbar-toggle span.icon-bar {
+		    transition: all 0.15s;
+		}
+
+		.navbar-toggle span:nth-child(2) {
+		    transform: rotate(45deg);
+		    transform-origin: 10% 10%;
+		}
+
+		.navbar-toggle span:nth-child(3) {
+		    opacity: 0;
+		}
+
+		.navbar-toggle span:nth-child(4) {
+		    transform: rotate(-45deg);
+		    transform-origin: 10% 90%;
+		}
+
+		.navbar-toggle.collapsed span:nth-child(2),
+		.navbar-toggle.collapsed span:nth-child(4) {
+		    transform: rotate(0);
+		}
+
+		.navbar-toggle.collapsed span:nth-child(3) {
+		    opacity: 1;
+		}
+
+		.navbar-right {
+    		text-align: center;
+		}
+
+ }
